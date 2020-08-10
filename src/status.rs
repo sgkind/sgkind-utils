@@ -183,6 +183,10 @@ status_codes! {
     (10131, SMS_VERIFICATION_CODE_FAILED, "Sms Verification Code Failed");
     (10132, EMAIL_VERIFICATION_CODE_FAILED, "Email Verification Code Failed");
     (10133, VOICE_VERIFICATION_CODE_FAILED, "Voice Verification Code Failed");
+
+    (30300, DB_FAILED, "Database Failed");
+    (30311, DB_TABLE_NOT_EXISTS, "Database table doesn't exists");
+    (30312, DB_ROW_NOT_EXISTS, "Database row doesn't exists");
 }
 
 impl InvalidStatusCode {
