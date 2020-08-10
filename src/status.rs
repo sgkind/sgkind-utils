@@ -179,10 +179,16 @@ status_codes! {
     (10121, PASSWORD_TO_SHORT, "Password is To Short");
     (10122, PASSWORD_TO_WEAK, "Password is to WEAK");
 
-    (10130, VERIFICATION_CODE_FAILED, "Verification Code Failed");
-    (10131, SMS_VERIFICATION_CODE_FAILED, "Sms Verification Code Failed");
-    (10132, EMAIL_VERIFICATION_CODE_FAILED, "Email Verification Code Failed");
-    (10133, VOICE_VERIFICATION_CODE_FAILED, "Voice Verification Code Failed");
+    (10130, EMAIL_FAILED, "Email Failed");
+    (10131, EMAIL_EXISTS, "Email Already Exists");
+
+    (10140, PHONE_FAILED, "Phone Failed");
+    (10141, PHONE_EXISTS, "Phone Already Exists");
+
+    (10150, VERIFICATION_CODE_FAILED, "Verification Code Failed");
+    (10151, SMS_VERIFICATION_CODE_FAILED, "Sms Verification Code Failed");
+    (10152, EMAIL_VERIFICATION_CODE_FAILED, "Email Verification Code Failed");
+    (10153, VOICE_VERIFICATION_CODE_FAILED, "Voice Verification Code Failed");
 
     (30300, DB_FAILED, "Database Failed");
     (30311, DB_TABLE_NOT_EXISTS, "Database table doesn't exists");
